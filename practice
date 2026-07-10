@@ -1,0 +1,7 @@
+# This program takes a name as input and prints the length of the name.
+name = input("enter a name: ")
+print(len(name))
+
+#couting the occurrences of a character in a string
+string = input("enter a string: ")
+print (string.count('pkr'))
