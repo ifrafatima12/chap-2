@@ -1,0 +1,24 @@
+#returns true if the string ends with sub-string
+#str.endwith("er")
+str = "i am a student"
+print (str.endswith("ent"))
+
+
+#replacing a word in a string with another word
+str = "i am a student"
+print (str.replace("student", "teacher"))
+
+
+#string used to find a specific word in a string
+str = "i am a student"
+print (str.find("t"))
+#if the word is not found it will return -1
+
+
+#in order to count the number of times a specific word appears in a string we can use the count function
+str = "i am a student"
+print (str.count("a"))
+
+
+
+
