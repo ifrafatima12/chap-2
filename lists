@@ -1,0 +1,9 @@
+#lists are used to store multiple values in a single variable 
+marks= (98.1, 23.5, 68.5, 86.5)
+print (marks)
+#if you want to  access a specific value in the list you can use indexing
+print (marks[0]) #this will print the first value in the list
+print(marks[2])#this will print the third value in the list
+#you can also find the type of function ur using
+print(type(marks))
+

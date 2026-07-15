@@ -1,0 +1,9 @@
+age= 32
+#nesting condition means putting one condition in another
+if (age>=18):
+    if(age>=65):
+        print("You are a senior citizen.")
+    else:
+        print("You are an adult.")
+        
+              
