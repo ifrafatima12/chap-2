@@ -1,0 +1,18 @@
+#list functions
+list= [1, 3, 2, 6, 5]
+print (list)
+#in order to add a value to the list we can use the append function
+list.append(4)
+print (list)
+#in order to remove a value from the list we can use the remove function
+list.remove(2)
+print (list)
+#IN ORDER to sort the list in ascending use sort function
+list.sort()
+print (list)
+#in order to sort in descending order use reverse fucktion
+list.sort(reverse=True)  
+print (list)
+#in order to insert a value
+list.insert(8, 3)
+print(list)
